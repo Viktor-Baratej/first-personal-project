@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trading race</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:wght@200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.min.css"
+      integrity="sha512-3axTZ/bKFZH5/qLFTl4U+mDbBDFW+5QO5L7D1HnOhlhJbcNDIVJxoNm6It77g0eUdzfKZlHirayqRC2qJaAOJw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/hero.css" />
+    <link rel="stylesheet" href="./css/mobile-app.css" />
+    <link rel="stylesheet" href="./css/market-info.css" />
+    <link rel="stylesheet" href="./css/paypal.css" />
+    <link rel="stylesheet" href="./css/primefin.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container header-container">
+        <a class="logo header-logo" href="./index.html"
+          >Prime<span class="header-logo-color">Fin</span></a
+        >
+        <div class="header-language-switch">
+          <button data-lang="en" type="button">EN</button>
+        </div>
+        <button class="modal-close-btn" type="button">
+          <svg class="modal-close-btn-icon" width="24" height="24">
+            <use href=""></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- hero section -->
+
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-container">
+            <h1 class="hero title">Be No. 1 in the trading race</h1>
+            <p class="hero text">
+              Always be one step ahead of the others. Benefit from quick
+              registration, instant access to 10.000+ markets, and non-stop
+              control over your bids 24/7. Start today – win right away.
+            </p>
+            <button class="btn hero-btn" type="button">Open account</button>
+          </div>
+          <div class="hero-img">
+            <img src="" alt="title" />
+          </div>
+        </div>
+      </section>
+
+      <!-- mobile app section -->
+
+      <section class="mobile-app-section">
+        <div class="container">
+          <div class="market-ticker">
+            <div class="container-ticker">
+              <ul class="market-ticker-list">
+                <li>
+                  Gold (XAUUSD)1 959.87
+                  <span class="positive">+0,23 (1.50%)</span>
+                </li>
+                <li>
+                  Silver (XAGUSD) 27.534
+                  <span class="positive">+0,41 (0,20%)</span>
+                </li>
+                <li>
+                  Palladium ( PA ) 2.189.80
+                  <span class="negative">−6,28 (0,32%)</span>
+                </li>
+                <li>
+                  Platinum ( PL ) 940.2
+                  <span class="negative">−0,73 (0,32%)</span>
+                </li>
+                <li>
+                  Copper(HG) 3.0060
+                  <span class="positive">+0,41 (0,20%)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="app-content">
+            <div class="app-image">
+              <img src="" alt="Mobile App" />
+            </div>
+            <div class="app-details">
+              <h2 class="app-title">Keep up with the market speed 24/7</h2>
+              <p class="app-text">
+                Get full access to 350+ assets with a single tap from your
+                mobile device. Download the PrimeFin mobile app in a few seconds
+                and benefit from here-and-now trading anytime, anywhere.
+              </p>
+              <div class="download-buttons">
+                <a href="" class="download-google-play"
+                  >Available on the <span>GOOGLE PLAY</span></a
+                >
+                <a href="" class="download-app-store"
+                  >Available on the <span>APP STORE</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- market info section -->
+
+      <section class="market-info-section">
+        <div class="container">
+          <h2 class="market-title">
+            Speed up with PrimeFin to win your market leadership status
+          </h2>
+
+          <div class="market-navigation">
+            <button class="market-btn left-arrow">&larr;</button>
+            <div class="market-buttons">
+              <button class="market-btn active">Crypto</button>
+              <button class="market-btn">Stocks</button>
+              <button class="market-btn">Commodities</button>
+              <button class="market-btn">Indices</button>
+              <button class="market-btn">Forex</button>
+              <button class="market-btn">Metals</button>
+            </div>
+            <button class="market-btn right-arrow">&rarr;</button>
+          </div>
+
+          <div class="assets-grid">
+            <div class="asset-card">
+              <h3 class="assets-title">ALPHABET inc</h3>
+              <p class="price">
+                7487.31
+                <span class="price-change positive">+126.73 (1.72%)</span>
+              </p>
+              <div class="chart">
+                <img src="" alt="Chart" />
+              </div>
+              <div class="buy-sell-buttons">
+                <button class="buy-btn" type="button">BUY</button>
+                <button class="sell-btn" type="button">SELL</button>
+              </div>
+            </div>
+
+            <div class="asset-card">
+              <h3 class="assets-title">USD/JPY</h3>
+              <p class="price">
+                7487.31
+                <span class="price-change negative">+126.73 (1.72%)</span>
+              </p>
+              <div class="chart">
+                <img src="" alt="Chart" />
+              </div>
+              <div class="buy-sell-buttons">
+                <button class="buy-btn" type="button">BUY</button>
+                <button class="sell-btn" type="button">SELL</button>
+              </div>
+            </div>
+
+            <div class="asset-card">
+              <h3 class="assets-title">AMAZON</h3>
+              <p class="price">
+                7487.31
+                <span class="price-change positive">+126.73 (1.72%)</span>
+              </p>
+              <div class="chart">
+                <img src="" alt="Chart" />
+              </div>
+              <div class="buy-sell-buttons">
+                <button class="buy-btn" type="button">BUY</button>
+                <button class="sell-btn" type="button">SELL</button>
+              </div>
+            </div>
+          </div>
+
+          <p class="market-text">
+            Heat up your portfolio with 30+ crypto options and conquer the
+            digital world.
+          </p>
+
+          <div class="trade-now">
+            <button class="btn trade-now-btn" type="button">Trade now</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- paypal section -->
+
+      <section class="paypal-section">
+        <div class="container">
+          <div class="paypal-content">
+            <div class="paypal-image-container">
+              <img src="" alt="PayPal Card" />
+            </div>
+            <div class="paypal-text-container">
+              <h2 class="paypal-title">
+                PayPal for lightning-fast investments
+              </h2>
+              <p class="paypal-text">
+                Fund your account with the safest and fastest way ever. Use your
+                PayPal account and never lose the pace of your operations.
+              </p>
+              <button class="btn deposit-now-btn" type="button">
+                Deposit now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Prime fin section -->
+
+      <section class="prime-fin-section">
+        <div class="container">
+          <h2 class="prime-fin-title">Why PrimeFin?</h2>
+          <h3 class="prime-fin-title-2">Your trading speed</h3>
+          <p class="prime-fin-text">
+            Pick up your trading pace with PrimeFin. Easy 3-step registration,
+            fast approval, live market charts 24/7, highest execution speed, and
+            instant access to 10.000+ markets online. Join today and win over
+            the prices volatility with the best trading conditions by your side.
+          </p>
+          <button class="btn prime-fin-btn" type="button">Trade now</button>
+          <div class="prime-fin-image">
+            <img src="" alt="Prime Fin" />
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section -->
+
+      <section class="contact-section">
+        <div class="container">
+          <div class="contact-image">
+            <img src="" alt="dispatcher" />
+          </div>
+          <h2 class="contact-title">Need help or quick guidance?</h2>
+          <h3 class="contact-title-2">Contact us right away</h3>
+          <address>
+            <ul class="contact-list">
+              <li class="contact-item">
+                <svg class="contact-img" width="24" height="24">
+                  <use href=""></use>
+                </svg>
+                <a class="contact-link" href="support@primefin.com"
+                  >support@primefin.com</a
+                >
+              </li>
+              <li class="contact-item">
+                <svg class="contact-img" width="24" height="24">
+                  <use href=""></use>
+                </svg>
+                <a class="contact-link" href="tel:+1000XXXCCCGGG"
+                  >+1 000 XXX CCC GGG</a
+                >
+              </li>
+              <li class="contact-item">
+                <svg class="contact-img" width="24" height="24">
+                  <use href=""></use>
+                </svg>
+                <a class="contact-link" href="LiveChat">Live Chat</a>
+              </li>
+            </ul>
+          </address>
+
+          <div class="container">
+            <div class="contact-card">
+              <img src="" alt="VISA" />
+              <img src="" alt="Pay" />
+              <img src="" alt="Verified by VISA " />
+              <img src="" alt="Mastercard" />
+              <img src="" alt="Mastercard" />
+              <img src="" alt="MasterCard SecureCode " />
+              <img src="" alt="Skrill" />
+              <img src="" alt="NETELLER" />
+              <img src="" alt="SSL" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer  -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-desktop-logo">
+          <a class="logo footer-logo" href="./index.html"
+            >Prime<span class="footer-logo-color">Fin</span></a
+          >
+        </div>
+        <div class="foter-tablet-logo">
+          <a class="tablet-logo" href="./index.html">Logotype</a>
+        </div>
+
+        <div class="footer-social">
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a class="footer-social-link" href="#">
+                <svg class="footer-social-icon" width="24" height="24">
+                  <use href=""></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="footer-social-link" href="#">
+                <svg class="footer-social-icon" width="24" height="24">
+                  <use href=""></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="footer-social-link" href="#">
+                <svg class="footer-social-icon" width="24" height="24">
+                  <use href=""></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="footer-social-link" href="#">
+                <svg class="footer-social-icon" width="24" height="24">
+                  <use href=""></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="footer-social-link" href="#">
+                <svg class="footer-social-icon" width="24" height="24">
+                  <use href=""></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-link">
+          <ul class="footer-list">
+            <li class="footer-item-link">
+              <a href="">Trade</a>
+            </li>
+            <li class="footer-item">Trading Cryptocurrencies</li>
+            <li class="footer-item">Trading Commodities</li>
+            <li class="footer-item">Trading Stocks</li>
+            <li class="footer-item">Trading Indices</li>
+            <li class="footer-item">Forex Trading</li>
+          </ul>
+        </div>
+        <div class="footer-link">
+          <ul class="footer-list">
+            <li class="footer-item-link">
+              <a href="">Assets</a>
+            </li>
+            <li class="footer-item">Web Trader</li>
+            <li class="footer-item">PC Meta Trader 4</li>
+            <li class="footer-item">Mobile App</li>
+          </ul>
+        </div>
+        <div class="footer-link">
+          <ul class="footer-list">
+            <li class="footer-item-link">
+              <a href="">Education</a>
+            </li>
+            <li class="footer-item">VOD</li>
+            <li class="footer-item">Courses</li>
+            <li class="footer-item">Tutorials</li>
+            <li class="footer-item">Articles</li>
+            <li class="footer-item">Ebooks</li>
+            <li class="footer-item">Economic calendar</li>
+          </ul>
+        </div>
+        <div class="footer-link">
+          <ul class="footer-list">
+            <li class="footer-item-link">
+              <a href="">About Us</a>
+            </li>
+            <li class="footer-item">About Us</li>
+            <li class="footer-item">Account Tiers</li>
+          </ul>
+        </div>
+        <div class="footer-link">
+          <ul class="footer-list">
+            <li class="footer-item-link">
+              <a href="">Legal</a>
+            </li>
+            <li class="footer-item">Saftey of Funds</li>
+            <li class="footer-item">Terms and Conditions</li>
+            <li class="footer-item">Privacy Policy</li>
+            <li class="footer-item">Withdrawal & Refund Policy</li>
+            <li class="footer-item">AML Policy</li>
+            <li class="footer-item">Complaint Handling</li>
+          </ul>
+        </div>
+        <div class="footer-link">
+          <ul class="footer-list">
+            <li class="footer-item-link">
+              <a href="">Contact Us</a>
+            </li>
+            <li class="footer-item">Contact Us</li>
+            <li class="footer-item">Contact managment</li>
+          </ul>
+        </div>
+        <div class="footer-text">
+          <p class="footer-text-first">
+            !!!!!!REPLACE THIS TEXT!!!!! The website is operated
+            byhttps://2invest-fo-content.s3.amazonaws.com/Content/Images/Pages/habonix.PNG,
+            a company bearing registration number HE396742 and having its
+            registered address at and by , a limited liability company
+            incorporated under the laws of Seychelles, bearing company
+            registration number 8417765-1, regulated by the Seychelles Financial
+            Services Authority (FSA), license number SD014 and having its
+            registered address at Suite 3, Global Village, Jivan’s Complex, Mont
+            Fleuri, Mahe, Seychelles.
+          </p>
+          <p class="footer-text-second">
+            Risk Warning: CFDs and derivatives are leveraged products and
+            involve high level of risk. Trading on such financial instruments
+            may result in losing all of your invested capital. Past performance
+            of financial instruments does not guarantee future performance.
+            Please ensure that you fully understand the risks involved before
+            making any trading decisions. Our risk disclosure can be found in
+            our terms and conditions.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
