@@ -21,6 +21,7 @@
 
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/hero.css" />
     <link rel="stylesheet" href="./css/mobile-app.css" />
     <link rel="stylesheet" href="./css/market-info.css" />
@@ -28,24 +29,41 @@
     <link rel="stylesheet" href="./css/primefin.css" />
     <link rel="stylesheet" href="./css/contact.css" />
     <link rel="stylesheet" href="./css/footer.css" />
-    <link rel="stylesheet" href="./css/header.css" />
   </head>
 
   <body>
     <!-- header -->
     <header class="header">
-      <div class="container header-container">
-        <a class="logo header-logo" href="./index.html"
-          >Prime<span class="header-logo-color">Fin</span></a
-        >
-        <div class="header-language-switch">
-          <button data-lang="en" type="button">EN</button>
+      <div class="container">
+        <div class="header-container">
+          <div class="logo">
+            <a href="./index.html">
+              <img src="./img/" alt="PrimeFin Logo" />
+            </a>
+          </div>
+
+          <nav>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Markets</a></li>
+              <li><a href="#">Trading platforms</a></li>
+              <li><a href="#">Education hub</a></li>
+              <li><a href="#">Legal</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </nav>
+
+          <div class="header-right">
+            <div class="language-selector">
+              <a href="#">EN</a>
+            </div>
+
+            <div class="buttons">
+              <a href="#" class="open-account-btn">Open account</a>
+              <a href="#" class="login-btn">Login</a>
+            </div>
+          </div>
         </div>
-        <button class="modal-close-btn" type="button">
-          <svg class="modal-close-btn-icon" width="24" height="24">
-            <use href=""></use>
-          </svg>
-        </button>
       </div>
     </header>
 
@@ -55,11 +73,11 @@
       <section class="hero-section">
         <div class="container">
           <div class="hero-container">
-            <h1 class="hero title">Be No. 1 in the trading race</h1>
+            <h1 class="hero-title">Be No1. in the trading race</h1>
             <p class="hero text">
               Always be one step ahead of the others. Benefit from quick
               registration, instant access to 10.000+ markets, and non-stop
-              control over your bids 24/7. Start today – win right away.
+              control over your bids 24/7. Start today - win right away.
             </p>
             <button class="btn hero-btn" type="button">Open account</button>
           </div>
@@ -238,7 +256,7 @@
             instant access to 10.000+ markets online. Join today and win over
             the prices volatility with the best trading conditions by your side.
           </p>
-          <button class="btn prime-fin-btn" type="button">Trade now</button>
+          <button class="prime-fin-btn" type="button">Trade now</button>
           <div class="prime-fin-image">
             <img src="" alt="Prime Fin" />
           </div>
